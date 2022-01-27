@@ -3,11 +3,13 @@ import './App.css';
 import Navbar from './components/header'
 import HomeContent from './content/home';
 import WhiteButton from './components/whiteButton';
-import TransparentButton from './components/TransparentButton';
+import TransparentButton from './components/transparentButton';
 import AboutContent from './content/about';
 import AchievementsContent from './content/achievements';
 import Footer from './components/footer'
 import TechContent from './content/tech'
+import Resume from './Pages/resume';
+
 function App() {
   return (
     <>
@@ -24,6 +26,7 @@ function App() {
       <AchievementsContent/>
       <TechContent/>
       <Footer/>
+      <Resume/>
     </>
   );
 }
