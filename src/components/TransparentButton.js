@@ -12,7 +12,8 @@ const TransparentButton = (props) =>{
 }
 
 TransparentButton.propTypes = {
-    text : PropTypes.string
+    text : PropTypes.string,
+    link : PropTypes.string
 }
 
 export default TransparentButton
