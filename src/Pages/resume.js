@@ -10,13 +10,13 @@ const Resume = () => {
     const pdf = "https://raw.githubusercontent.com/Nirmitjatana/portfolio/main/src/data/Nirmit_Jatana_Resume.pdf"
     return(
         <>
-            <div>
-                <h1 className='text-white'>Resume 📝</h1>
+            <div className='pt-[150px] flex flex-row justify-between px-[110px]'>
+                <h1 className='text-white text-4xl font-extrabold'>Resume 📝</h1>
                 <WhiteButton text="Download PDF" download={pdf}/>
             </div>
-            <div>
+            <div className='flex flex-row justify-center mt-[80px] mb-[30px]'>
                 <Document file={pdf}>
-                    <Page pageNumber={1}/>
+                    <Page pageNumber={1} scale={1.7}/>
                 </Document>
             </div>
         </>
