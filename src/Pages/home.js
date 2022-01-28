@@ -6,12 +6,14 @@ import AboutContent from '../content/about';
 import AchievementsContent from '../content/achievements';
 import TechContent from '../content/tech'
 
+
 const Home = () =>{
+    
     return(
         <>
             <HomeContent/>
-            <TransparentButton text="Get in touch!"/>
-            <WhiteButton text="Download Resume"/>
+            <TransparentButton text="Get in touch!" link="/contact"/>
+            <WhiteButton text="Download Resume" link="/resume"/>
             <AboutContent/>
             <AchievementsContent/>
             <TechContent/>
