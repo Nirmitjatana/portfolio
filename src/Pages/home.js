@@ -11,12 +11,23 @@ const Home = () =>{
     
     return(
         <>
-            <HomeContent/>
-            <TransparentButton text="Get in touch!" link="/contact"/>
-            <WhiteButton text="Download Resume" link="/resume"/>
-            <AboutContent/>
-            <AchievementsContent/>
-            <TechContent/>
+            <div className='h-screen pt-[200px] ml-[100px]'>
+                <HomeContent/>
+                <div className='flex-row mt-10'>
+                    <TransparentButton text="Get in touch!" link="/contact"/>
+                    <span className=''>.........</span>
+                    <WhiteButton text="Download Resume" link="/resume"/>
+                </div>
+            </div>
+            <div className='h-screen'>
+                <AboutContent/>
+            </div>
+            <div className='h-screen'>
+                <AchievementsContent/>
+            </div>
+            <div className='h-[97vh]'>
+                <TechContent/>
+            </div>
         </>
     )
 }
