@@ -9,10 +9,6 @@ import TechContent from '../content/tech'
 const Home = () =>{
     return(
         <>
-            <h1 className="font-bold text-white">I'm</h1>
-            <h1 className="font-extrabold text-white">
-                Nirmit Jatana
-            </h1>
             <HomeContent/>
             <TransparentButton text="Get in touch!"/>
             <WhiteButton text="Download Resume"/>
