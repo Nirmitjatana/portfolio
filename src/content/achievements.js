@@ -1,5 +1,6 @@
 import React from 'react';
 import Data from '../data/achievements.json'
+import Link from '../Assets/link.svg'
 
 const AchievementsContent = () => {
     return(
@@ -10,12 +11,14 @@ const AchievementsContent = () => {
                 {
                     Data.map(
                         Data => <li className='p-2' key={Data.text}>
-                                    <span className="text-white">
-                                        {Data.text}
-                                    </span>
-                                    <a className='text-white' href={Data.link}>
-                                        link
-                                    </a>
+                                    <div className='flex flex-row'>
+                                        <h1 className="text-white mr-3">
+                                            {Data.text}
+                                        </h1>
+                                        <a className='text-white opacity-30' href={Data.link}>
+                                            <img src={Link} alt="link"/>
+                                        </a>
+                                    </div>
                                 </li>
                                 )
                 }
