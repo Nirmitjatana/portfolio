@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const WorkCard = (props) =>{
     return(
@@ -17,6 +18,14 @@ const WorkCard = (props) =>{
     )
 }
 
-// add proptypes
+WorkCard.propTypes = {
+    data: PropTypes.shape({
+        company:PropTypes.string.isRequired,
+        img:PropTypes.string.isRequired, 
+        description:PropTypes.string.isRequired,
+        role:PropTypes.string.isRequired,
+        duration:PropTypes.string.isRequired
+    })
+} 
 
 export default WorkCard

@@ -12,7 +12,8 @@ const WhiteButton = (props) => {
 }
 
 WhiteButton.propTypes = {
-    text : PropTypes.string
+    text : PropTypes.string.isRequired,
+    link : PropTypes.string.isRequired
 }
 
 export default WhiteButton

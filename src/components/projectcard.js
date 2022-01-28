@@ -1,6 +1,7 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const ProjectsCard = (props) =>{
+const ProjectsCard = (props) => {
     return(
         <>
             <img alt="project-preview" src={props.data.img}></img>
@@ -30,5 +31,13 @@ const ProjectsCard = (props) =>{
         </>
     )
 }
+
+ProjectsCard.propTypes = {
+    data: PropTypes.shape({
+        name:PropTypes.string.isRequired,
+        img:PropTypes.string.isRequired, 
+        description:PropTypes.string.isRequired
+    })
+}  
 
 export default ProjectsCard
