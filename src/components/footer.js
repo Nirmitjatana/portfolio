@@ -1,15 +1,20 @@
 import React from 'react';
 
 const Footer = () =>{
+
+    // dynamic year in footer, cant change again and again XD
+    
+    const timestamp = Date().toLocaleString()
+    const year = timestamp.length > 0 ? timestamp.substring(11,15) : 2022
     return(
-        <>
-            <h5 className="text-white">
+        <div className='flex flex-row w-full justify-between px-[110px] py-6'>
+            <a className="text-neutral-400 font-bold" href={"https://github.com/Nirmitjatana/portfolio"} target="_blank" rel='noreferrer'>
                 Designed and developed by Nirmit Jatana
-            </h5>
-            <h5 className="text-white">
-            © 2022 | Nirmit Jatana
-            </h5>
-        </>
+            </a>
+            <a className="font-bold text-neutral-400" href={"https://github.com/Nirmitjatana"} target="_blank" rel='noreferrer'>
+            © {year} | Nirmit Jatana
+            </a>
+        </div>
     )
 }
 
