@@ -13,7 +13,7 @@ const WhiteButton = (props) => {
                 <a href={props.download} download>{props.text}</a>
             </button>
             : 
-            <button className='text-white' onClick={() => {navigate(props.link)}}>{props.text}</button>}
+            <button className='text-black rounded-lg w-[230px] h-[55px] border-white border-2 bg-white' onClick={() => {navigate(props.link)}}>{props.text}</button>}
         </>
     )
 }

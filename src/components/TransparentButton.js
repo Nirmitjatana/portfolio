@@ -6,7 +6,7 @@ const TransparentButton = (props) =>{
     let navigate = useNavigate();
     return(
         <>
-            <button className='text-white' onClick={() => {navigate(props.link)}}>{props.text}</button>
+            <button className='text-white rounded-lg border-white border-2 w-[230px] h-[55px]' onClick={() => {navigate(props.link)}}>{props.text}</button>
         </>
     )
 }
