@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () =>{
     return(
-        <nav className='text-white'>
+        <nav className='text-white absolute'>
             <Link to="/">home</Link>
             <Link to="/projects">projects</Link>
             <Link to="/work">work</Link>

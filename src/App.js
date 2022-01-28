@@ -11,10 +11,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 /*
 TODO:
-- react router
-- proptypes on object
-- navbar
-- pdf view
+- react router          => done
+- proptypes on object   => done
+- navbar                => done
+- pdf view              => done
+- styling
+- content
 
 */
 
@@ -23,18 +25,15 @@ function App() {
     <>
       <Router>
         <Navbar/>
-
         <Routes>
-
           <Route path='/' element={<Home/>} />
           <Route path='/work' element={<Work/>} />
           <Route path='/projects' element={<Project/>} />
           <Route path='/resume' element={<Resume/>} />
           <Route path='/contact' element={<Contact/>} />
           <Route path='*' element={<Home/>} />
-
         </Routes>
-
+        {/* add pathname logic here */}
         <Footer/>
       </Router>
     </>
