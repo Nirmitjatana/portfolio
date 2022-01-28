@@ -1,34 +1,35 @@
 [
     {
+        "text": "GitHub Externship 2021",
+        "link": "https://test.com"
+    },
+    {
         "text": "Winner of VIT hack 2020",
         "link": "https://test.com"
     },
     {
-        "text": "Winner of VIT hack 2021",
+        "text": "1577 AIR in Google HashCode 2021",
         "link": "https://test.com"
     },
     {
-        "text": "Winner of VIT hack 2022",
+        "text": "Access denied 2021 Winner",
         "link": "https://test.com"
     },
     {
-        "text": "Winner of VIT hack 2023",
+        "text": "Mentor at RUHACKS by MLH & Ryerson University",
         "link": "https://test.com"
     },
     {
-        "text": "Winner of VIT hack 2024",
+        "text": "MLH Hack-off 2020 2nd Winner",
         "link": "https://test.com"
     },
     {
-        "text": "Winner of VIT hack 2025",
+        "text": "30 days of Google Cloud Program",
         "link": "https://test.com"
     },
     {
-        "text": "Winner of VIT hack 2026",
-        "link": "https://test.com"
-    },
-    {
-        "text": "Winner of VIT hack 2027",
+        "text": "Mentor at DandyHacks by MLH & University of Rochester",
         "link": "https://test.com"
     }
+    
 ]
