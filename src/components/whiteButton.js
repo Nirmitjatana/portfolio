@@ -9,7 +9,7 @@ const WhiteButton = (props) => {
         <>
             {
             props.download ?
-            <button className='text-white'>
+            <button className='text-black rounded-lg w-[230px] h-[55px] border-white border-2 bg-white'>
                 <a href={props.download} download>{props.text}</a>
             </button>
             : 
