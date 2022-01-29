@@ -5,7 +5,6 @@ import Figma from '../Assets/figma.svg'
 import Link from '../Assets/link.svg'
 
 const ProjectsCard = (props) => {
-    console.log(props.data.img)
     return(
         <div className='w-full bg-[#363636] rounded-2xl m-3'>
             <img src={ props.data.img } alt="project-preview"></img>
