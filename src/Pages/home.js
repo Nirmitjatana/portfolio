@@ -6,6 +6,7 @@ import AboutContent from '../content/about';
 import AchievementsContent from '../content/achievements';
 import TechContent from '../content/tech';
 import ReactPageScroller from 'react-page-scroller';
+import Highlight from '../components/highlight';
 
 
 const Home = () => {
@@ -30,6 +31,7 @@ const Home = () => {
                     <TechContent/>
                 </div>
             </ReactPageScroller>
+            <Highlight text="Home"/>
         </div>
     )
 }

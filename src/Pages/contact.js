@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../components/footer'
+import Highlight from '../components/highlight';
 
 const Contact = () =>{
     return(
@@ -18,6 +19,7 @@ const Contact = () =>{
                 
             </div>
             <Footer/>
+            <Highlight text="Contact"/>
         </div>
     )
 }

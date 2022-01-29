@@ -1,6 +1,7 @@
 import React from 'react';
 import data from '../data/projects.json';
 import ProjectCard from '../components/projectcard'
+import Highlight from '../components/highlight';
 
 const Project = () =>{
     return(
@@ -12,6 +13,7 @@ const Project = () =>{
                     data => <ProjectCard key={data.name} data={data}/>
                 )
             }
+            <Highlight text='Projects'/>
         </>
     )
 }
