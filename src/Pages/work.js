@@ -4,16 +4,18 @@ import WorkCard from '../components/workcard'
 import Highlight from '../components/highlight';
 const Work = () =>{
     return(
-        <>
-            <h1 className='text-white'>Work Experience 💼</h1>
-            <h5 className='text-white'>I love building projects and practice my engineering skills, here's an archive of things that I've worked on.</h5>    
-            {
-                data.data.map(
-                    data => <WorkCard key={data.company} data={data}/>
-                )
-            }
+        <div className='pt-[150px]'>
+            <h1 className='text-white px-36 text-4xl font-extrabold'>Work Experience 💼</h1>
+            <h5 className='text-white px-36 text-[16px] mt-6 font-light'>I love building projects and practice my engineering skills, here's an archive of things that I've worked on.</h5>    
+            <div className='mx-36 my-8'>
+                {
+                    data.data.map(
+                        data => <WorkCard key={data.company} data={data}/>
+                    )
+                }
+            </div>
             <Highlight text='Work'/>
-        </>
+        </div>
     )
 }
 
