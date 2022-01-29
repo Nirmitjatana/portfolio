@@ -3,6 +3,7 @@ import WhiteButton from '../components/whiteButton';
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Footer from '../components/footer'
+import Highlight from '../components/highlight'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -23,6 +24,7 @@ const Resume = () => {
                     <Page pageNumber={1} scale={1.7} style={{ color: 'white' }}/>
                 </Document>
             </div>
+            <Highlight text='Resume'/>
             <Footer/>
         </div>
     )

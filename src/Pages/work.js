@@ -1,6 +1,7 @@
 import React from 'react';
 import data from '../data/work.json';
 import WorkCard from '../components/workcard'
+import Highlight from '../components/highlight';
 const Work = () =>{
     return(
         <>
@@ -11,6 +12,7 @@ const Work = () =>{
                     data => <WorkCard key={data.company} data={data}/>
                 )
             }
+            <Highlight text='Work'/>
         </>
     )
 }
