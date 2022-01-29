@@ -15,8 +15,11 @@ const Resume = () => {
                 <WhiteButton text="Download PDF" download={pdf}/>
             </div>
             <div className='flex flex-row justify-center mt-[80px] mb-[30px]'>
-                <Document file={pdf}>
-                    <Page pageNumber={1} scale={1.7}/>
+                <Document file={pdf} 
+                loading={ <div className='text-white'>Loading PDF...</div> }
+                error={ <div className='text-white'>Error fetching the PDF. Try downloading.</div>}
+                >
+                    <Page pageNumber={1} scale={1.7} style={{ color: 'white' }}/>
                 </Document>
             </div>
         </>
