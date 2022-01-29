@@ -1,7 +1,7 @@
 [
     {
         "name":"Akina",
-        "img":"../Assets/projects/akina.svg",
+        "img":"/assets/projects/akina.svg",
         "links": {
             "figma": "https://google.com",
             "github": "https://google.com",
