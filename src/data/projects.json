@@ -1,11 +1,11 @@
 [
     {
         "name":"Akina",
-        "img":"",
+        "img":"../Assets/projects/akina.svg",
         "links": {
-            "figma": "http",
-            "github": "",
-            "url": ""
+            "figma": "https://google.com",
+            "github": "https://google.com",
+            "url": "https://google.com"
         },
         "description":""
     },
