@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/header'
+import Navbar from './components/navbar'
 import Resume from './Pages/resume';
 import Project from './Pages/project';
 import Contact from './Pages/contact';
 import Work from './Pages/work';
 import Home from './Pages/home';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Highlight from './components/highlight';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 /*
 TODO:
@@ -25,7 +25,6 @@ function App() {
     <>
       <Router>
         <Navbar/>
-        <Highlight text="Resume" size="200"/>
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/work' element={<Work/>} />
