@@ -1,15 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import akina from '../Assets/projects/akina.svg'
 import Github from '../Assets/github.svg'
 import Figma from '../Assets/figma.svg'
 import Link from '../Assets/link.svg'
 
 const ProjectsCard = (props) => {
-    
+    console.log(props.data.img)
     return(
-        <div className='w-2/5 bg-[#363636] rounded-2xl m-3'>
-            <img src={ akina } alt="project-preview"></img>
+        <div className='w-full bg-[#363636] rounded-2xl m-3'>
+            <img src={ props.data.img } alt="project-preview"></img>
             <div className='flex flex-row justify-between'>
                 <h1 className='text-white font-bold mx-6 my-3 text-xl'>{props.data.name}</h1>
                 <div className='flex flex-row mx-6 my-3'>
