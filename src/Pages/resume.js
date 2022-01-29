@@ -2,6 +2,7 @@ import React from 'react';
 import WhiteButton from '../components/whiteButton';
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import Footer from '../components/footer'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
@@ -9,7 +10,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const Resume = () => {
     const pdf = "https://raw.githubusercontent.com/Nirmitjatana/portfolio/main/src/data/Nirmit_Jatana_Resume.pdf"
     return(
-        <>
+        <div className='flex flex-col justify-between h-screen'>
             <div className='pt-[150px] flex flex-row justify-between px-[110px]'>
                 <h1 className='text-white text-4xl font-extrabold'>Resume 📝</h1>
                 <WhiteButton text="Download PDF" download={pdf}/>
@@ -22,7 +23,8 @@ const Resume = () => {
                     <Page pageNumber={1} scale={1.7} style={{ color: 'white' }}/>
                 </Document>
             </div>
-        </>
+            <Footer/>
+        </div>
     )
 }
 
