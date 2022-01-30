@@ -1,0 +1,38 @@
+{
+    "primary": [
+            {
+                "link": "mailto:nirmitjatana38@gmail.com",
+                "url":""
+            },
+            {
+                "link": "telegram",
+                "url": ""
+            },
+            {
+                "link": "whatsapp",
+                "url": ""
+            }
+    ],
+    "secondary":[
+        {
+            "link": "github",
+            "url":""
+        },
+        {
+            "link": "linkedin",
+            "url": ""
+        },
+        {
+            "link": "medium",
+            "url": ""
+        },
+        {
+            "link": "twitter",
+            "url": ""
+        },
+        {
+            "link": "instagram",
+            "url": ""
+        }
+    ] 
+}
