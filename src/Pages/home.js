@@ -13,12 +13,14 @@ const Home = () => {
     return(
         <div className='overflow-x-hidden'>
             <ReactPageScroller animationTimer={700}>
-                <div className='h-screen pt-[200px] ml-[100px]'>
+                <div className='h-screen pt-32 ml-11 lg:pt-[200px] lg:ml-[100px]'>
                     <HomeContent/>
-                    <div className='flex-row mt-10'>
+                    <div className='flex-row mt-10 lg:mt-3 inline-block'>
                         <TransparentButton text="Get in touch!" link="/contact"/>
-                        <span className=''>.........</span>
-                        <WhiteButton text="Download Resume" link="/resume"/>
+                        {/* <span className=''>.........</span> */}
+                        <div className='lg:ml-6 mt-6 inline-block'>
+                            <WhiteButton text="Download Resume" link="/resume"/>
+                        </div>
                     </div>
                 </div>
                 <div className='h-screen'>
