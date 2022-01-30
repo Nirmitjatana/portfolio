@@ -10,7 +10,11 @@ const Round = (props) => {
                     </div>
                 </div>
             </div>
-            <h1 className='text-white font-light mt-1 flex flex-row justify-center'>{props.data.stack}</h1>
+            
+            {
+                props.data.stack ? <h1 className='text-white font-light mt-1 flex flex-row justify-center'>{props.data.stack}</h1> : <span></span> 
+            }
+            
         </div>
     )
 }
