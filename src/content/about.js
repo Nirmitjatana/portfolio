@@ -2,9 +2,9 @@ import React from 'react';
 
 const AboutContent = () => {
     return(
-        <div className='w-4/5 ml-[150px] pt-[150px]'>
-            <h1 className='text-white text-4xl font-extrabold'>About Me  ⚡</h1>
-            <h3 className='text-white text-[24px] mt-10 font-light' >
+        <div className='w-4/5 ml-11 pt-32 lg:ml-[150px] lg:pt-[150px]'>
+            <h1 className='text-white text-xl lg:text-4xl font-extrabold'>About Me  ⚡</h1>
+            <h3 className='text-white lg:text-[22px] text-md mt-10 font-extralight tracking-wide'>
             I am Nox, I think outside the box!
             <br/>
             A Software Developer currently an Intern at Schlumberger, India. I'm pursuing BTech in Computer Science from VIT-Vellore.
