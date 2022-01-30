@@ -1,12 +1,12 @@
 import React from 'react';
 import HomeContent from '../content/home';
-import WhiteButton from '../components/whiteButton';
-import TransparentButton from '../components/transparentButton';
+import WhiteButton from '../Components/whiteButton';
+import TransparentButton from '../Components/transparentButton';
 import AboutContent from '../content/about';
 import AchievementsContent from '../content/achievements';
 import TechContent from '../content/tech';
 import ReactPageScroller from 'react-page-scroller';
-import Highlight from '../components/highlight';
+import Highlight from '../Components/highlight';
 
 
 const Home = () => {

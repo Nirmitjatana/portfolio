@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from '../components/footer'
-import Round from '../components/roundlogo';
+import Footer from '../Components/footer'
+import Round from '../Components/roundlogo';
 import Techstack from '../data/techstack.json'
 
 const TechContent = () =>{
