@@ -6,7 +6,7 @@ import Contact from './Pages/contact';
 import Work from './Pages/work';
 import Home from './Pages/home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './Components/nav'
+import Navbar from './Components/header'
 
 
 /*
