@@ -38,24 +38,14 @@ const Highlight = (props) => {
     const data = variations[props.text]
     return(
         data.text === "Nox" ?
-        <div className={`text-white fixed ${data.bottom} ${data.right} text-[270px] -z-20`}>
-            <h1 className='font-extrabold' style={{
-                "textShadow": "0px 4px 4px rgba(0, 0, 0, 0.25)",
-                "background": "-webkit-linear-gradient( rgba(255, 255, 255, 0.15) 43.73%, rgba(0, 0, 0, 0.0375) 60.73%)",
-                "WebkitBackgroundClip": "text",
-                "WebkitTextFillColor": "transparent",
-                }}>
+        <div className={`text-white fixed -bottom-24 lg:-bottom-36 -right-4 lg:opacity-80 opacity-50 text-[270px] -z-20`}>
+            <h1 className='font-extrabold highlight'>
                 Nox
-                </h1>
+            </h1>
         </div>
         :
         <div className={`text-white fixed ${data.bottom} ${data.right} text-[220px] -z-20`}>
-            <h1 className='font-extrabold' style={{
-                "textShadow": "0px 4px 4px rgba(0, 0, 0, 0.25)",
-                "background": "-webkit-linear-gradient( rgba(255, 255, 255, 0.15) 43.73%, rgba(0, 0, 0, 0.0375) 60.73%)",
-                "WebkitBackgroundClip": "text",
-                "WebkitTextFillColor": "transparent",
-                }}>
+            <h1 className='font-extrabold highlight'>
                 {data.text}
                 </h1>
         </div>
