@@ -1,7 +1,7 @@
 import React from 'react';
-import Footer from '../components/footer'
-import Highlight from '../components/highlight';
-import Round from '../components/roundlogo';
+import Footer from '../Components/footer'
+import Highlight from '../Components/highlight';
+import Round from '../Components/roundlogo';
 import ContactDetails from '../data/contact.json'
 
 const Contact = () =>{

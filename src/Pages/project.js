@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../data/projects.json';
-import ProjectCard from '../components/projectcard'
-import Highlight from '../components/highlight';
+import ProjectCard from '../Components/projectcard'
+import Highlight from '../Components/highlight';
 
 const Project = () =>{
     return(

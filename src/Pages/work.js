@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../data/work.json';
-import WorkCard from '../components/workcard'
-import Highlight from '../components/highlight';
+import WorkCard from '../Components/workcard'
+import Highlight from '../Components/highlight';
 const Work = () =>{
     return(
         <div className='pt-[150px]'>

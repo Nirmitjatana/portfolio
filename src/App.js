@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/navbar'
+import Navbar from './Components/navbar'
 import Resume from './Pages/resume';
 import Project from './Pages/project';
 import Contact from './Pages/contact';

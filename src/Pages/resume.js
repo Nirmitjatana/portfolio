@@ -1,9 +1,9 @@
 import React from 'react';
-import WhiteButton from '../components/whiteButton';
+import WhiteButton from '../Components/whiteButton';
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import Footer from '../components/footer'
-import Highlight from '../components/highlight'
+import Footer from '../Components/footer'
+import Highlight from '../Components/highlight'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
