@@ -1,6 +1,6 @@
 import React from 'react';
 import HomeContent from '../content/home';
-import WhiteButton from '../Components/whiteButton.js';
+import WhiteButton from '../Components/whiteButton';
 import TransparentButton from '../Components/transparentButton.js';
 import AboutContent from '../content/about';
 import AchievementsContent from '../content/achievements';
