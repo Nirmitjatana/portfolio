@@ -9,7 +9,7 @@ const HomeContent = () =>{
             </h1>
             <div className='lg:w-1/2 mr-11'>
                 <span className='text-white font-extrabold text-xl lg:text-2xl'>Software Engineer. </span>
-                <span className='text-neutral-500 font-extrabold text-xl lg:text-2xl'>A self-taught developer with an interest in open source and product developement.</span>
+                <span className='text-neutral-500 font-extrabold text-xl lg:text-2xl'>A self-taught developer with an interest in open source and product development.</span>
                 <br/>
             </div>
         </div>

@@ -21,6 +21,10 @@ TODO:
 */
 
 function App() {
+  const call = () => {
+    window.scrollTo(0,1)
+  }
+  call()
   return (
     <>
       <Router>
