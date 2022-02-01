@@ -37,7 +37,7 @@ const ProjectsCard = (props) => {
                 </div>
             </div>
             <div className='text-white text-xs font-light mx-6 pb-5'>
-                I love building projects and practice my engineering skills, here's an archive of things that I've worked on.
+                {props.data.description}
             </div>
         </div>
     )
