@@ -4,7 +4,7 @@ import Logo from '../Assets/logo.svg'
 
 const Navbar = () =>{
 
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(true);
     const handleClick = () => {
         setShow(show => !show);
     };
