@@ -46,10 +46,10 @@ const Navbar = () =>{
             </nav>
             <div className={`bg-[#1f1e1e] top-[80px] h-48 w-48 absolute flex right-0 zeder lg:hidden transition ease-in-out ${ show ? 'hidden' : '' }`}>
                 <div className='text-white lg:px-12 flex flex-col justify-evenly text-center mx-auto'>
-                    <Link to="/projects" className='lg:px-8 font-extrabold text-lg'>Projects</Link>
-                    <Link to="/work" className='lg:px-8 font-extrabold text-lg'>Work</Link>
-                    <Link to="/resume" className='lg:px-8 font-extrabold text-lg'>Resume</Link>
-                    <Link to="/contact" className='lg:px-8 font-extrabold text-lg'>Contact</Link>
+                    <Link to="/projects" className='lg:px-8 font-extrabold text-lg' onClick={() => {handleClick()}}>Projects</Link>
+                    <Link to="/work" className='lg:px-8 font-extrabold text-lg' onClick={() => {handleClick()}}>Work</Link>
+                    <Link to="/resume" className='lg:px-8 font-extrabold text-lg' onClick={() => {handleClick()}}>Resume</Link>
+                    <Link to="/contact" className='lg:px-8 font-extrabold text-lg' onClick={() => {handleClick()}}>Contact</Link>
                 </div> 
             </div>
         </div>
