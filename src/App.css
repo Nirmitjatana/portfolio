@@ -36,3 +36,6 @@ html{
 body{
     overscroll-behavior-y: contain;
 }
+.zeder{
+    z-index: 10000000;
+}
