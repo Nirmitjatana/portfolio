@@ -38,7 +38,7 @@ const Highlight = (props) => {
     const data = variations[props.text]
     return(
         data.text === "Nox" ?
-        <div className={`text-white fixed -bottom-24 lg:-bottom-36 -right-4 opacity-80 opacity-50 text-[200px] lg:text-[270px] -z-20`}>
+        <div className={`text-white fixed -bottom-24 lg:-bottom-36 -right-4 opacity-50 text-[200px] lg:text-[270px] -z-20`}>
             <h1 className='font-extrabold highlight'>
                 Nox
             </h1>
