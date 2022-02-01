@@ -9,8 +9,8 @@ const ProjectsCard = (props) => {
         <div className='w-full bg-[#363636] rounded-2xl m-3'>
             <img src={ props.data.img } alt="project-preview"></img>
             <div className='flex flex-row justify-between'>
-                <h1 className='text-white font-bold mx-6 my-3 text-xl'>{props.data.name}</h1>
-                <div className='flex flex-row mx-6 my-3'>
+                <h1 className='text-white font-bold mx-4 text-md lg:mx-6 my-3 lg:text-xl'>{props.data.name}</h1>
+                <div className='flex flex-row mx-4 lg:mx-6 my-3'>
                     {
                         props.data.links.figma.length > 0 ? <span className='px-1 pt-[3px]'>
                             <a href={props.data.links.figma} target="_blank" rel="noreferrer">
@@ -36,7 +36,7 @@ const ProjectsCard = (props) => {
                     }
                 </div>
             </div>
-            <div className='text-white text-xs font-light mx-6 pb-5'>
+            <div className='text-white text-[11px] lg:text-xs font-light mx-4 lg:mx-6 pb-5'>
                 {props.data.description}
             </div>
         </div>
