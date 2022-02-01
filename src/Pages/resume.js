@@ -7,16 +7,15 @@ import Highlight from '../Components/highlight'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-
 const Resume = () => {
 
-    const [width, setWidth] = useState(1200);
+    const [width, setWidth] = useState(787);
 
     useEffect(() => {
         const updateWindowDimensions = () => {
             const newWidth = window.innerWidth;
             setWidth(newWidth);
-            console.log("updating height");
+            // console.log("updating height", newWidth);
         };
         window.addEventListener("resize", updateWindowDimensions);
         return () => window.removeEventListener("resize", updateWindowDimensions) 
