@@ -8,7 +8,6 @@ const Navbar = () =>{
     const handleClick = () => {
         setShow(show => !show);
     };
-    console.log(show)
 
     return(
         <div>
@@ -26,14 +25,14 @@ const Navbar = () =>{
                         <Link to="/contact" className='lg:px-8 font-extrabold text-lg'>Contact</Link>
                     </div>
                     <div className="md:hidden flex items-center mr-9">
-                        <button class="outline-none mobile-menu-button" onClick={() => {handleClick()}}>
+                        <button className="outline-none mobile-menu-button" onClick={() => {handleClick()}}>
                             <svg
-                                class="w-6 h-6 text-white"
+                                className="w-6 h-6 text-white"
                                 x-show="!showMenu"
                                 fill="none"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
                             >

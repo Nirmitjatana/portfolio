@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import WhiteButton from '../Components/whiteButton';
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -9,18 +9,26 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const Resume = () => {
 
-    const [width, setWidth] = useState(787);
+    const [windowSize, setWindowSize] = useState(window.innerWidth);
 
+    const handleWindowResize = useCallback(event => {
+
+        setWindowSize(window.innerWidth);
+  
+    }, []); 
+  
+  
     useEffect(() => {
-        const updateWindowDimensions = () => {
-            const newWidth = window.innerWidth;
-            setWidth(newWidth);
-            // console.log("updating height", newWidth);
-        };
-        window.addEventListener("resize", updateWindowDimensions);
-        return () => window.removeEventListener("resize", updateWindowDimensions) 
+      window.addEventListener('resize', handleWindowResize);
+  
+      return () => {
+        window.removeEventListener('resize', handleWindowResize);
+      };
+    }, [handleWindowResize]);
 
-    }, []);
+    const checkScale = () => {
+        return windowSize > 786 ? 1.7 : 0.6
+    }
 
 
     const pdf = "https://raw.githubusercontent.com/Nirmitjatana/portfolio/main/src/data/Nirmit_Jatana_Resume.pdf"
@@ -37,7 +45,7 @@ const Resume = () => {
                 loading={ <div className='text-white'>Loading PDF...</div> }
                 error={ <div className='text-white'>Error fetching the PDF. Try downloading.</div>}
                 >
-                    <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} style={{ color: 'white' }}/>
+                    <Page pageNumber={1} scale={checkScale()} style={{ color: 'white' }}/>
                 </Document>
             </div>
             <Highlight text='Resume'/>
