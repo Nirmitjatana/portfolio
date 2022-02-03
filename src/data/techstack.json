@@ -5,46 +5,46 @@
     },
     {
         "stack": "React",
-        "img": "/assets/stack/javascript.svg"
+        "img": "/assets/stack/react.svg"
+    },
+    {
+        "stack": "Redux",
+        "img": "/assets/stack/redux.svg"
     },
     {
         "stack": "NodeJS",
-        "img": "/assets/stack/javascript.svg"
+        "img": "/assets/stack/nodejs.svg"
     },
     {
         "stack": "ExpressJS",
-        "img": "/assets/stack/javascript.svg"
+        "img": "/assets/stack/express.svg"
     },
     {
-        "stack": "Javascript",
-        "img": "/assets/stack/javascript.svg"
+        "stack": "Tailwind",
+        "img": "/assets/stack/tailwind.svg"
     },
     {
-        "stack": "React",
-        "img": "/assets/stack/javascript.svg"
+        "stack": "C++",
+        "img": "/assets/stack/cplusplus.svg"
     },
     {
-        "stack": "NodeJS",
-        "img": "/assets/stack/javascript.svg"
+        "stack": "Git",
+        "img": "/assets/stack/git_t.svg"
     },
     {
-        "stack": "ExpressJS",
-        "img": "/assets/stack/javascript.svg"
+        "stack": "Flutter",
+        "img": "/assets/stack/flutter.svg"
     },
     {
-        "stack": "Javascript",
-        "img": "/assets/stack/javascript.svg"
+        "stack": "Firebase",
+        "img": "/assets/stack/firebase.svg"
     },
     {
-        "stack": "React",
-        "img": "/assets/stack/javascript.svg"
+        "stack": "MongoDB",
+        "img": "/assets/stack/mongodb.svg"
     },
     {
-        "stack": "NodeJS",
-        "img": "/assets/stack/javascript.svg"
-    },
-    {
-        "stack": "ExpressJS",
-        "img": "/assets/stack/javascript.svg"
+        "stack": "PostgreSQL",
+        "img": "/assets/stack/postgresql.svg"
     }
 ]
