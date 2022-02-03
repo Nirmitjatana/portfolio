@@ -4,7 +4,7 @@ const AboutContent = () => {
     return(
         <div className='w-4/5 ml-11 pt-32 lg:ml-[150px] lg:pt-[150px]'>
             <h1 className='text-white text-xl lg:text-4xl font-extrabold'>About Me  ⚡</h1>
-            <h3 className='text-white lg:text-[19px] text-[13px] mt-10 font-extralight tracking-wide'>
+            <h3 className='text-white lg:text-[19px] text-[12.5px] mt-10 font-extralight tracking-wide'>
             I am Nox(formally Nirmit Jatana), I think outside the box!
             <br/>
             <br/>
