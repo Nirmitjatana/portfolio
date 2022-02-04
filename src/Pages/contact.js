@@ -14,7 +14,7 @@ const Contact = () =>{
                 <div className='flex flex-row'>
                     {
                         ContactDetails.primary.map(list => 
-                            <a href={list.link} className='mx-2 lg:mx-6 lg:my-6 my-8' target="_blank" rel="noreferrer">
+                            <a key={list.link} href={list.link} className='mx-2 lg:mx-6 lg:my-6 my-8' target="_blank" rel="noreferrer">
                                 <Round data={list} key={list.link}/>    
                             </a>
                         )
@@ -24,7 +24,7 @@ const Contact = () =>{
                 <div className='flex flex-row flex-wrap w-4/5'>
                     {
                         ContactDetails.secondary.map(list => 
-                            <a href={list.link} className='mx-2 lg:mx-6 my-8'>
+                            <a key={list.link} href={list.link} className='mx-2 lg:mx-6 lg:my-6 my-8' target="_blank" rel="noreferrer">
                                 <Round data={list} key={list.link} target="_blank" rel="noreferrer"/>    
                             </a>
                         )
