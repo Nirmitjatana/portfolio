@@ -25,7 +25,7 @@ const Contact = () =>{
                     {
                         ContactDetails.secondary.map(list => 
                             <a key={list.link} href={list.link} className='mx-2 lg:mx-6 lg:my-6 my-8' target="_blank" rel="noreferrer">
-                                <Round data={list} key={list.link} target="_blank" rel="noreferrer"/>    
+                                <Round data={list} key={list.link}/>    
                             </a>
                         )
                     }

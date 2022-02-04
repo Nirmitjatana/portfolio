@@ -5,33 +5,33 @@
                 "url":"/assets/contact/gmail.svg"
             },
             {
-                "link": "telegram",
+                "link": "https://t.me/nirmitjatana",
                 "url": "/assets/contact/telegram.svg"
             },
             {
-                "link": "whatsapp",
+                "link": "https://katb.in/uhojifevehu",
                 "url": "/assets/contact/whatsapp.svg"
             }
     ],
     "secondary":[
         {
-            "link": "github",
+            "link": "https://github.com/Nirmitjatana",
             "url":"/assets/contact/github.svg"
         },
         {
-            "link": "linkedin",
+            "link": "https://www.linkedin.com/in/nirmit-jatana/",
             "url": "/assets/contact/linkedin.svg"
         },
         {
-            "link": "medium",
+            "link": "https://medium.com/@nirmitjatana38",
             "url": "/assets/contact/medium.svg"
         },
         {
-            "link": "twitter",
+            "link": "https://twitter.com/nirmit_jatana",
             "url": "/assets/contact/twitter.svg"
         },
         {
-            "link": "instagram",
+            "link": "https://www.instagram.com/nirmit.j12/",
             "url": "/assets/contact/instagram.svg"
         }
     ] 
