@@ -2,37 +2,37 @@
     "primary": [
             {
                 "link": "mailto:nirmitjatana38@gmail.com",
-                "url":""
+                "url":"/assets/contact/gmail.svg"
             },
             {
                 "link": "telegram",
-                "url": ""
+                "url": "/assets/contact/telegram.svg"
             },
             {
                 "link": "whatsapp",
-                "url": ""
+                "url": "/assets/contact/whatsapp.svg"
             }
     ],
     "secondary":[
         {
             "link": "github",
-            "url":""
+            "url":"/assets/contact/github.svg"
         },
         {
             "link": "linkedin",
-            "url": ""
+            "url": "/assets/contact/linkedin.svg"
         },
         {
             "link": "medium",
-            "url": ""
+            "url": "/assets/contact/medium.svg"
         },
         {
             "link": "twitter",
-            "url": ""
+            "url": "/assets/contact/twitter.svg"
         },
         {
             "link": "instagram",
-            "url": ""
+            "url": "/assets/contact/instagram.svg"
         }
     ] 
 }
