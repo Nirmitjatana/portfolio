@@ -6,7 +6,13 @@ const Round = (props) => {
             <div className='bg-white w-16 h-16 lg:w-32 lg:h-32 rounded-full'>
                 <div className='flex flex-row justify-center'>
                     <div className='lg:mt-6 mt-4'>
-                        <img src={props.data.img} alt="stack img" className='lg:w-20 w-9'/>
+                        {
+                            props.data.img ? 
+                            <img src={props.data.img} alt="stack img" className='lg:w-20 w-9'/> 
+                            :
+                            <img src={props.data.url} alt="stack img" className='lg:w-20 w-9'/> 
+                        }
+                        
                     </div>
                 </div>
             </div>
