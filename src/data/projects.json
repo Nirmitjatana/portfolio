@@ -10,18 +10,18 @@
         "description":"Nirmit jatana is a PRO. Imma get google one day and everyone will be fucked. looking at mee  afvkuefhIO;HA FIALKJFHIHJf:cslazkJAHEFsajCKZHDFVZL;DKCS I DSSAZ DCAISdj"
     },
     {
-        "name":"Akina1",
-        "img":"",
+        "name":"Akina",
+        "img":"/assets/projects/akina.svg",
         "links": {
-            "figma": "",
-            "github": "",
-            "url": ""
+            "figma": "https://google.com",
+            "github": "https://google.com",
+            "url": "https://google.com"
         },
         "description":""
     },
     {
         "name":"Akina2",
-        "img":"",
+        "img":"/assets/projects/akina.svg",
         "links": {
             "figma": "",
             "github": "",
@@ -31,7 +31,7 @@
     },
     {
         "name":"Akina4",
-        "img":"",
+        "img":"/assets/projects/akina.svg",
         "links": {
             "figma": "",
             "github": "",
@@ -41,7 +41,7 @@
     },
     {
         "name":"Akina5",
-        "img":"",
+        "img":"/assets/projects/akina.svg",
         "links": {
             "figma": "",
             "github": "",
@@ -51,7 +51,7 @@
     },
     {
         "name":"Akina6",
-        "img":"",
+        "img":"/assets/projects/akina.svg",
         "links": {
             "figma": "",
             "github": "",
