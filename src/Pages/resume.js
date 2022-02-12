@@ -36,7 +36,7 @@ const Resume = () => {
         <div className='flex flex-col justify-between h-screen'>
             <div className='ml-11 pt-32 lg:pt-[150px] lg:flex flex-row lg:justify-between lg:px-[110px]'>
                 <h1 className='text-white text-xl lg:text-4xl font-extrabold'>Resume 📝</h1>
-                <div className='flex flex-row justify-center -ml-11 mt-8 lg:mt-0'>
+                <div className='flex flex-row justify-center pr-11 mt-8 lg:mt-0 '>
                     <WhiteButton text="Download PDF" download={pdf}/>
                 </div>
             </div>
