@@ -1,13 +1,17 @@
 import React from 'react'
-import video from '../Assets/delete_soon.mp4'
+import ReactPlayer from 'react-player'
 
 const Secret = () => {
-    // const url = "../Assets/delete_soon.mp4"
+    // const url =""
   return (
     <div className='pt-40 flex flex-row justify-center text-white'>
-        <video width="750" height="500" controls className='outline-none'>
-            <source src={video} type="video/mp4"/>
-        </video>
+        <ReactPlayer
+            url="https://www.youtube.com/watch?v=jdgih_9alZA"
+            controls
+            playbackRate = {1}
+            width = "896px"
+            height = "504px"
+        />
     </div>
   )
 }
