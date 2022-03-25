@@ -24,7 +24,7 @@ function App() {
   const call = () => {
     window.scrollTo(0,1)
   }
-  call()
+  call();
   return (
     <>
       <Router>
@@ -37,7 +37,6 @@ function App() {
           <Route path='/contact' element={<Contact/>} />
           <Route path='*' element={<Home/>} />
         </Routes>
-        {/* add pathname logic here */}
       </Router>
     </>
   );
