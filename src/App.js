@@ -7,8 +7,6 @@ import Work from './Pages/work';
 import Home from './Pages/home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/header'
-import Tanu from './Pages/tanu'
-import Secret from './Pages/secret'
 
 
 /*
@@ -37,8 +35,6 @@ function App() {
           <Route path='/projects' element={<Project/>} />
           <Route path='/resume' element={<Resume/>} />
           <Route path='/contact' element={<Contact/>} />
-          <Route path='/tanu' element={<Tanu/>} />
-          <Route path='/secret' element={<Secret/>} />
           <Route path='*' element={<Home/>} />
         </Routes>
         {/* add pathname logic here */}
